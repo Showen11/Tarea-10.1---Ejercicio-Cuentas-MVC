@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Cuentas\\Cuentas.csproj": {}
+    "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Cuentas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Cuentas\\Cuentas.csproj": {
+    "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Cuentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Cuentas\\Cuentas.csproj",
+        "projectUniqueName": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Cuentas.csproj",
         "projectName": "Cuentas",
-        "projectPath": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Cuentas\\Cuentas.csproj",
+        "projectPath": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Cuentas.csproj",
         "packagesPath": "C:\\Users\\jupzz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Cuentas\\obj\\",
+        "outputPath": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

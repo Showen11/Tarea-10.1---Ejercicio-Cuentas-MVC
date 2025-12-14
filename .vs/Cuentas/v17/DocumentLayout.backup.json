@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|c:\\users\\jupzz\\source\\repos\\cuentas\\tarea-10.1---ejercicio-cuentas-mvc\\cuentas\\views\\cuentas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|solutionrelative:cuentas\\views\\cuentas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|c:\\users\\jupzz\\source\\repos\\cuentas\\tarea-10.1---ejercicio-cuentas-mvc\\cuentas\\views\\cuentas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|solutionrelative:cuentas\\views\\cuentas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|c:\\users\\jupzz\\source\\repos\\cuentas\\tarea-10.1---ejercicio-cuentas-mvc\\cuentas\\views\\movimientos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|solutionrelative:cuentas\\views\\movimientos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Cuentas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Cuentas\\Views\\Cuentas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Cuentas\\Details.cshtml",
+              "RelativeToolTip": "Cuentas\\Views\\Cuentas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T05:17:34.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Cuentas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Cuentas\\Views\\Cuentas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Cuentas\\Index.cshtml",
+              "RelativeToolTip": "Cuentas\\Views\\Cuentas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T05:13:36.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Movimientos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Cuentas\\Views\\Movimientos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Movimientos\\Create.cshtml",
+              "RelativeToolTip": "Cuentas\\Views\\Movimientos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T03:13:33.744Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
