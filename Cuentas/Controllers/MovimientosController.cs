@@ -64,7 +64,7 @@ namespace Cuentas.Controllers
 
             if (cuenta == null)
             {
-                ModelState.AddModelError("","La cuenta especifica no existe.");
+                ModelState.AddModelError("","La cuenta especificada no existe.");
                 return View(movimiento);
             }
 
