@@ -39,7 +39,7 @@
 
         public void setDebito(double monto)
         {
-            this.debitos = monto;
+            this.debitos += monto;
         }
 
     }
