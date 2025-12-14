@@ -1,0 +1,75 @@
+﻿@model Cuentas.Models.Cuenta
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <div class="card shadow-sm bg-secondary text-white">
+                <div class="card-body">
+                    <h3 class="card-title">Editar Cuenta</h3>
+                    <h6 class="card-subtitle mb-3 text-body-secondary">Cambie los datos de la cuenta</h6>
+
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <input type="hidden" asp-for="Id" />
+                        <div class="mb-3">
+                            <label asp-for="numero" class="control-label"></label>
+                            <input asp-for="numero" class="form-control" readonly />
+                            <span asp-validation-for="numero" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="descripcion" class="control-label"></label>
+                            <input asp-for="descripcion" class="form-control" />
+                            <span asp-validation-for="descripcion" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="creditos" class="control-label"></label>
+                            <input asp-for="creditos" class="form-control" readonly />
+                            <span asp-validation-for="creditos" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="debitos" class="control-label"></label>
+                            <input asp-for="debitos" class="form-control" readonly />
+                            <span asp-validation-for="debitos" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="balance" class="control-label"></label>
+                            <input asp-for="balance" class="form-control" readonly />
+                            <span asp-validation-for="balance" class="text-danger"></span>
+                        </div>
+
+                        @if (Model.balance >= 0)
+                        {
+                            <div class="form-group">
+                                <input type="submit" value="Guardar" class="btn btn-primary w-100" />
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="alert alert-danger mt-2">
+                                No se puede editar la cuenta porque el balance es negativo por ende esta inactiva.
+                            </div>
+                        }
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="text-center mt-3">
+    <a class="btn btn-danger btn-sm" asp-action="Index" class="card-link">Volver a la lista</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

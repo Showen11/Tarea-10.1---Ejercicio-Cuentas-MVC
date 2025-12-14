@@ -1,0 +1,42 @@
+﻿@model Cuentas.Models.Cuenta
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+            <div class="container mt-4 ">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card shadow-lg bg-secondary text-white">
+                            <div class="card-body">
+                                <h3 class="text-black card-title">Detalles</h3>
+
+                                <div class="mb-2  p-2 border rounded bg-dark ">
+                                    <strong>Número:</strong> @Model.numero
+                                </div>
+                                <div class="mb-2 p-2 border rounded bg-dark">
+                                    <strong>Descripcion:</strong> @Model.descripcion
+                                </div>
+                                <div class="mb-2 p-2 border rounded bg-dark">
+                                    <strong>Créditos:</strong> @Model.creditos
+                                </div>
+                                <div class="mb-2 p-2 border rounded bg-dark">
+                                    <strong>Débitos:</strong> @Model.debitos
+                                </div>
+                                <div class="mb-2 p-2 border rounded bg-dark">
+                                    <strong>Balance:</strong> @Model.balance
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <div class="text-center mt-4">
+        <a class="btn-primary btn-sm" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>
+    </div>
+    <div class="text-center mt-3">
+        <a class="btn btn-danger btn-sm" asp-action="Index" class="card-link">Volver a la lista</a>
+    </div>
+

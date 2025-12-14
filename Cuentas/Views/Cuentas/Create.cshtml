@@ -1,0 +1,67 @@
+﻿@model Cuentas.Models.Cuenta
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <div class="card shadow-lg bg-secondary text-white">
+                <div class="card-body">
+                    <h3 class="card-title">Crear nueva cuenta</h3>
+                    <h6 class="card-subtitle mb-3 text-body-secondary">Ingrese los datos de la cuenta</h6>
+
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="numero" class="form-label"></label>
+                            <input asp-for="numero" class="form-control" />
+                            <span asp-validation-for="numero" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="descripcion" class="form-label"></label>
+                            <input asp-for="descripcion" class="form-control" />
+                            <span asp-validation-for="descripcion" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="creditos" class="form-label"></label>
+                            <input asp-for="creditos" class="form-control" />
+                            <span asp-validation-for="creditos" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="debitos" class="form-label"></label>
+                            <input asp-for="debitos" class="form-control" />
+                            <span asp-validation-for="debitos" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="balance" class="form-label"></label>
+                            <input asp-for="balance" class="form-control" />
+                            <span asp-validation-for="balance" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">Crear</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="text-center mt-3">
+                <a class="btn btn-danger btn-sm" asp-action="Index" class="card-link">Volver a la lista</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

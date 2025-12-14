@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Cuentas.Models.Cuenta>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="w-100 py-3" style="background-color: #2c3e50;">
+    <h1 class="text-center mb-0 text-white">Listado de Cuentas</h1>
+</div>
+
+<div class="my-4"></div>
+
+<p class="mb-5">
+    <a class="btn btn-success btn-lg shadow-sm" asp-action="Create">+ Crear Nueva Cuenta</a>
+</p>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card shadow-sm bg-secondary text-white" style="width: 18rem;">
+                <div class="card-body">
+
+                    <h5 class="card-title">Número: @item.numero</h5>
+                    <div class="mb-2 p-2 border rounded bg-dark">
+                        <strong>Descripcion:</strong> @item.descripcion
+                    </div>
+                    <div class="mb-2 p-2 border rounded bg-dark">
+                        <strong>Créditos:</strong> @item.creditos
+                    </div>
+                    <div class="mb-2 p-2 border rounded bg-dark">
+                        <strong>Débitos:</strong> @item.debitos
+                    </div>
+                    <div class="mb-2 p-2 border rounded bg-dark">
+                        <strong>Balance:</strong> @item.balance
+                    </div>
+                    <div class="mb-3 p-2 border rounded bg-dark">
+                        <strong>Estado:</strong> @(item.balance <= 0 ? "Inactivo" : "Activo")
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                        <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+                        <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
