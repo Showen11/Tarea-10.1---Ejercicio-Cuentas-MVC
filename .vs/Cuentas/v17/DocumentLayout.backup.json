@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|c:\\users\\jupzz\\source\\repos\\cuentas\\tarea-10.1---ejercicio-cuentas-mvc\\cuentas\\controllers\\movimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|solutionrelative:cuentas\\controllers\\movimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|c:\\users\\jupzz\\source\\repos\\cuentas\\tarea-10.1---ejercicio-cuentas-mvc\\cuentas\\views\\movimientos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|solutionrelative:cuentas\\views\\movimientos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|c:\\users\\jupzz\\source\\repos\\cuentas\\tarea-10.1---ejercicio-cuentas-mvc\\cuentas\\views\\cuentas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|solutionrelative:cuentas\\views\\cuentas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|c:\\users\\jupzz\\source\\repos\\cuentas\\tarea-10.1---ejercicio-cuentas-mvc\\cuentas\\views\\cuentas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|solutionrelative:cuentas\\views\\cuentas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB10646D-1206-486E-8454-FFE839855D83}|Cuentas\\Cuentas.csproj|c:\\users\\jupzz\\source\\repos\\cuentas\\tarea-10.1---ejercicio-cuentas-mvc\\cuentas\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,33 +25,29 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MovimientosController.cs",
-              "DocumentMoniker": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Controllers\\MovimientosController.cs",
-              "RelativeDocumentMoniker": "Cuentas\\Controllers\\MovimientosController.cs",
-              "ToolTip": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Controllers\\MovimientosController.cs",
-              "RelativeToolTip": "Cuentas\\Controllers\\MovimientosController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowEIAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T06:05:07.219Z",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Cuentas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Cuentas\\Views\\Cuentas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Cuentas\\Delete.cshtml",
+              "RelativeToolTip": "Cuentas\\Views\\Cuentas\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T06:35:32.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Cuentas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Cuentas\\Views\\Cuentas\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Cuentas\\Edit.cshtml",
-              "RelativeToolTip": "Cuentas\\Views\\Cuentas\\Edit.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Movimientos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Cuentas\\Views\\Movimientos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\jupzz\\source\\repos\\Cuentas\\Tarea-10.1---Ejercicio-Cuentas-MVC\\Cuentas\\Views\\Movimientos\\Delete.cshtml",
+              "RelativeToolTip": "Cuentas\\Views\\Movimientos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-14T05:58:11.73Z",
+              "WhenOpened": "2025-12-14T06:33:47.187Z",
               "EditorCaption": ""
             },
             {
@@ -64,7 +60,8 @@
               "RelativeToolTip": "Cuentas\\Controllers\\CuentasController.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAmwH4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T05:48:46.333Z"
+              "WhenOpened": "2025-12-14T05:48:46.333Z",
+              "EditorCaption": ""
             }
           ]
         }
